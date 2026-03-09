@@ -3,21 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mera AI Portfolio</title>
+    <title>Niraj Yadav | Expert Web Developer</title>
     <style>
-        body { background-color: #1a1a1a; color: white; font-family: sans-serif; text-align: center; padding: 50px; }
-        .box { border: 2px solid #00ffcc; padding: 30px; display: inline-block; border-radius: 20px; }
-        h1 { color: #00ffcc; }
-        p { font-size: 1.2rem; }
-        .btn { background: #00ffcc; color: black; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background: #0d1117; color: #c9d1d9; line-height: 1.6; padding: 20px; }
+        .container { max-width: 900px; margin: auto; }
+        
+        /* Header */
+        header { text-align: center; padding: 60px 0; border-bottom: 1px solid #30363d; }
+        h1 { color: #58a6ff; font-size: 3rem; margin-bottom: 10px; }
+        .tagline { font-size: 1.2rem; color: #8b949e; }
+
+        /* Projects Section */
+        .section-title { margin: 40px 0 20px; text-align: left; color: #3fb950; font-size: 1.5rem; border-left: 5px solid #3fb950; padding-left: 15px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .card { background: #161b22; border: 1px solid #30363d; padding: 20px; border-radius: 12px; transition: 0.3s; }
+        .card:hover { transform: translateY(-5px); border-color: #58a6ff; }
+        .card h3 { color: #f0f6fc; margin-bottom: 10px; }
+        .card p { font-size: 0.9rem; color: #8b949e; }
+
+        /* Contact Button */
+        .cta-box { text-align: center; margin: 50px 0; padding: 40px; background: linear-gradient(145deg, #1f242c, #0d1117); border-radius: 20px; }
+        .whatsapp-btn { background: #238636; color: white; padding: 15px 35px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 1.2rem; display: inline-block; }
+        .whatsapp-btn:hover { background: #2ea043; }
+
+        footer { text-align: center; padding: 20px; color: #484f58; font-size: 0.8rem; }
     </style>
 </head>
 <body>
-    <div class="box">
-        <h1>Namaste! Main Freelancer hoon</h1>
-        <p>Main AI ki madad se behtareen websites banata hoon.</p>
-        <br>
-        <a href="#" class="btn">Mujhse Baat Karein</a>
+
+<div class="container">
+    <header>
+        <h1>Niraj Yadav</h1>
+        <p class="tagline">Professional Web Developer & AI Solutions Expert</p>
+    </header>
+
+    <h2 class="section-title">Mere Banaye Huye Projects</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>🏋️ Fitness Gym Website</h3>
+            <p>Membership management aur exercise schedule ke saath modern website.</p>
+        </div>
+        <div class="card">
+            <h3>🍕 Restaurant Booking</h3>
+            <p>Online menu aur table reservation system wali fast loading site.</p>
+        </div>
+        <div class="card">
+            <h3>🛒 E-Commerce Store</h3>
+            <p>Products bechne ke liye professional online dukaan ka setup.</p>
+        </div>
     </div>
+
+    <div class="cta-box">
+        <h2>Kya Aapko Bhi Website Banwani Hai?</h2>
+        <p style="margin-bottom: 20px;">Main aapka kaam 24-48 ghanton mein poora kar dunga.</p>
+        <a href="https://wa.me/917667919205?text=Hi%20Niraj,%20mujhe%20website%20banwani%20hai" class="whatsapp-btn">
+            Direct WhatsApp Par Baat Karein
+        </a>
+    </div>
+
+    <footer>
+        © 2026 Niraj Yadav Portfolio | Made with ❤️ and AI
+    </footer>
+</div>
+
 </body>
 </html>
